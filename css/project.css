@@ -1,0 +1,64 @@
+body{
+ background-color: #333;
+ color: #FFF;
+}
+
+/* start navbar */
+
+.navbar{
+  border-bottom: 3px solid #008ed6;
+  opacity: 0.8;
+}
+
+/* end navbar */
+
+/* start home section area */
+
+#home-section{
+  background:url('../images/home.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+}
+
+.dark-overlay{
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  min-height:700px;
+}
+
+.home-inner{
+  padding-top:150px;
+}
+
+.myCheck{
+  background-color:#FFF;
+  color:#008ed6;
+  padding:4px;
+  border-radius: 5px;
+  font-size:30px;
+}
+
+.card-form {
+  opacity: 0.8;
+}
+
+/* end home section area */
+
+/* start explore section */
+
+.myCheck2{
+  background-color:#333;
+  color:#FFF;
+  padding:4px;
+  border-radius:5px;
+  font-size:30px;
+}
+
+
+
+/* end explore section */
